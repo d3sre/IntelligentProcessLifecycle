@@ -9,8 +9,7 @@ This information was first presented at FIRST 2020, the video is available here:
 # Continuous Improvement metrics for integrity or technical security compliance monitoring
 KPI | Explanation | Target Value | Owner | Risk Type
  :-------------------------- |:----------------------------------------------------| :----- |:---------------- |:----------------:
- Number of legitimate violations authorized by change | This value reflects events which usually are classic false positives, where all official change processes were correctly followed but the SOC was not included in the process and therefore could not prevent the false alarm
- | < 10 % | Compliance | Endogenous
+ Number of legitimate violations authorized by change | This value reflects events which usually are classic false positives, where all official change processes were correctly followed but the SOC was not included in the process and therefore could not prevent the false alarm | < 10 % | Compliance | Endogenous
  Number of configuration errors in baseline | This value reflects what system configurations (or even configuration templates) needs improvement. | < 10 % | Compliance/ Operational | Endogenous
  Number of Limitation in verification products found | If too many of these events were created by configurations, the causing tool should be questioned. | < 5 % | Compliance/ Operational | Endogenous
  Number of activities with no change required | There seems to be a mismatch between the defined security scope and the verified security scope. Gaps should be verified | < 5 % | Policy | Endogenous
