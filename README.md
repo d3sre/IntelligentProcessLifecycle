@@ -2,7 +2,7 @@
 The Intelligent Process Lifecycle of Active Cyber Defenders
 
 ## Description
-This github hosts the poster related files of false positive and error categories in security operation services. The goal is to define an open source reporting standard for Security Operation Center reports. 
+This github hosts the poster related files of false positive and error categories in security operation services. The goal is to define an open source reporting standard for Security Operation Center reports. The hereby published KPIs are focused on creating statistics relevant for continuous improvement of operational cyber defense tasks.
 
 This information was first presented at FIRST 2020, the video is available here: https://www.youtube.com/watch?v=pR02cZlPakU
 
