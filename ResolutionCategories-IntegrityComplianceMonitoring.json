@@ -1,0 +1,49 @@
+{
+  "namespace": "continuousimprovement-integritycompliance-monitoring",
+  "expanded": "Continuous Improvement Compliance and Integrity Monitoring Resolution Categories",
+  "description": "The compliance and integrity categories reflect standard resolution categories, to clearly display what type of alarm was generated with the current compliance or integrity monitoring configuration. The full paper can be found on: https://github.com/d3sre/IntelligentProcessLifecycle/blob/main/ComplianceIntegrityTaxonomyPaper-v1.0.pdf",
+  "version": 1,
+  "predicates": [
+	{
+          "value": "legitimate-violation-authorized-by-change",
+		  "expanded": "Legitimate violation authorized by change",
+          "description": "This type of alert is caused by changes in monitored files (on premises or in the cloud) but
+		  the SOC did not have a direct suppression associated. The update of the baseline configuration file was either not included in the process or was not possible beforehand. This can point to configuration limitation (such as needed updates that cannot be timed or activated time controlled) or process improvements where SOC should be better included. This category requires adjustment to the baseline configuration as a follow-up task to make sure no further false alarm is triggered by the old configuration"
+        },
+        {
+          "value": "legitimate-violation-with-missed-change-documentation",
+		  "expanded": "Legitimate violation with missed change documentation",
+          "description": "This category of alerts creates statistical values to illustrate when security and IT processes are not being correctly followed (often caused by human error). These activities are hard to detect otherwise and therefore important to track, report or otherwise communicate to system responsible teams or security/risk management authorities. This category requires adjustment to the baseline configuration as a follow up task."
+        },
+        {
+          "value": "temporary-configuration-abberation",
+		  "expanded": "Temporary configuration aberration",
+          "description": "This type of alert is usually unpredictable and important to track as long as the temporary setup is in place. Depending on the amount of time the emergency setup is in place, either the baseline should be adjusted or can be kept. For short amount of times it can make sense to configure a suppression. For longer adjustments, a risk entry could be reasonable."
+        },
+        {
+          "value": "configuration-error-in-baseline",
+		  "expanded": "Configuration error in baseline",
+          "description": "This category reflects misconfiguration problems based on bad quality information delivered by the system engineering teams. This information needs to be imported from outside and is usually hard to verify by SOC personnel. It should therefore not be included in SOC KPI values and rather be used to illustrate misconceptions, missing security awareness or missing security knowledge throughout the company."
+        },
+        {
+          "value": "limitation-in-verification-product",
+		  "expanded": "Limitation in verification product",
+          "description": "The current product in use for configuration compliance or integrity monitoring is limited in its configuration possibilities and therefore causes bad alerts. This can only be improved by changing the product or applying extensive tricks or workarounds to the setup."
+        },
+        {
+          "value": "test-alert",
+		  "expanded": "Test alert",
+          "description": "This alert reflects alerts created for testing purposes. "
+        },
+        {
+          "value": "unauthorized-change-without-legitimate-cause",
+		  "expanded": "Unauthorized change without legitimate cause",
+		  "description":"This type of resolution usually causes a security incident analysis. It is of important value for threat and risk estimations. The baseline configuration is not adjusted"
+        },
+		{
+          "value": "activity-with-no-change-documentation-required",
+		  "expanded": "Activity with no change documentation required",
+		  "description":"This category documents alerts that cannot be resolved due to missing documentation and no requirement to document changes on the system or this file type. It can also have resolved alerts, but extended analysis was needed as security policies do not regard these changes as critical. This category comprises of accepted risks, usually regulated by manageability. It can also include changes performed on systems during a penetration test that did not have to be documented by system engineers on a regular basis and therefore could not be otherwise verified. Such documentation gaps need to be verified by security management and possible influence security policy scope"
+        }      
+  ],
+}
