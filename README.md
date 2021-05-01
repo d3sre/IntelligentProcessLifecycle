@@ -26,7 +26,7 @@ Number of blind spots identified | Any time a detection can not be created this 
 Number of context of exploitability not given | Very high numbers → You might not be getting honest responses or your threat identification process is faulty | it depends :) | Counter-Party/ Contractual | Exogenous 
 
 
-
+My other continuous improvement KPIs for security monitoring can be found here: https://github.com/d3sre/Use_Case_Applicability 
 
 
 ## Authors and acknowledgment
