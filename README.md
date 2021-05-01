@@ -8,7 +8,7 @@ This information was first presented at FIRST 2020, the video is available here:
 
 # Continuous Improvement metrics for integrity or technical security compliance monitoring
 KPI | Explanation | Target Value | Owner | Risk Type
- :-------------------------- |:----------------------------------------------------| :----- :---------------- :----------------:
+ :-------------------------- |:----------------------------------------------------| :----- |:---------------- |:----------------:
  Number of legitimate violations authorized by change | This value reflects events which usually are classic false positives, where all official change processes were correctly followed but the SOC was not included in the process and therefore could not prevent the false alarm
  | < 10 % | Compliance | Endogenous
  Number of configuration errors in baseline | This value reflects what system configurations (or even configuration templates) needs improvement. | < 10 % | Compliance/ Operational | Endogenous
@@ -19,7 +19,7 @@ Number of changes without formal changes | Number of legitimate violation with m
 
 # Continuous Improvement metrics for vulnerability management
 KPI | Explanation | Target Value | Owner | Risk Type
- :-------------------------- |:----------------------------------------------------| :----- :---------------- :----------------:
+ :-------------------------- |:----------------------------------------------------| :----- |:----------------| :----------------:
 Number of delays due to unreasonable SLA | If this value is high very often, correlated to the applications you are running you might be able to impact either SLA or policy documents | 0 | Operational/ Contractual | Exogenous
 Numbers of delays due to resource problems or Average # of days delays due to resource problems | If this happens to often it can illustrate how your staff management is impacting the quality of security services. If occuring too often a risk entry is important | 0 | Contractual | Endogenous/Exogenous
 Numbers of installed patch on time | This is the goal. If it can’t be reached too often policies or failing reasons should be reviewed | >80% | Counter-Party/ Contractual | Exogenous
