@@ -15,6 +15,7 @@ KPI | Explanation | Target Value | Owner | Risk Type
  Number of Limitation in verification products found | If too many of these events were created by configurations, the causing tool should be questioned. | < 5 % | Compliance/ Operational | Endogenous
  Number of activities with no change required | There seems to be a mismatch between the defined security scope and the verified security scope. Gaps should be verified | < 5 % | Policy | Endogenous
 Number of unauthorized changes without legitimate cause | Very high numbers → Security process and IT process integration needs rework; Very low numbers → The configurations aren‘t detecting or you are safe | it depends :) | Policy | Endogenous
+Number of changes without formal changes | Number of legitimate violation with missed change documentation is highlighting where the SOC had no chance of automating false alerts, as well as where employees are not complying to formal processes. | <5% | Policy/Compliance | Endogenous
 
 # Continuous Improvement metrics for vulnerability management
 KPI | Explanation | Target Value | Owner | Risk Type
