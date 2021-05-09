@@ -1,0 +1,48 @@
+{
+  "namespace": "continuousimprovement-detectionfailure-reason",
+  "expanded": "Continuous Improvement Detection Failure Reasons Resolution Categories",
+  "description": "The detection failure reasons categories reflect standard resolution categories, to document the reasons why a detection rule can not be created at the time of evaluation. More infos can be found on: https://github.com/d3sre/IntelligentProcessLifecycle",
+  "version": 1,
+  "predicates": [
+	{
+          "value": "events-can-not-be-logged",
+		  "expanded": "Events can not be logged",
+          "description": "It can happen that some vulnerabilities are hard to log directly. This can for example occur when information about a backdoor gets published and the usage of such a backdoor is done in a fashion that is hardly distinguishable from normal usage. In this case it is a good idea to find a close enough approximation by identifying what might be visible before or after exploitation occurred. This can trigger more false positives, implementation therefore should be based on risk levels, and decisions and assumptions reached documented in a technical risk register."
+        },
+        {
+          "value": "detection-pattern-unclear",
+		  "expanded": "Detection pattern unclear",
+          "description": "It can happen in an early stage of publication, that it is not well documented how a vulnerability is being exploited. This can especially happen with responsible disclosure where a patch was created by the supplier, but can not be installed due to one of the variety of reasons. It can mean that for creating such a rule, contact to the supplier needs to be initiated in hope of receiving more information. It possible that the information needed will not be forwarded for legal reasons. This situation can be very tricky and ways to resolve this challenge need to be evaluated individually. Usually, the risk of the delayed patch installation needs to be raised and implementation should be prioritized if somehow possible. If this is still not possible, projects to initiate architectural changes to the surrounding setup should be considered. Another cause of this category is analysts being unable to produce detection rules from blog posts about the vulnerability. This encompasses many sub categories ranging from lacking foundational skills in the analyst or inaccuracies in the documentation of the vulnerability and it’s exploitation. There are many resources available with ready-made detection rules, but understanding the implemented detection rules and if needed, adjusting them for the individual usage is key. If this is often the cause of a rule not being implemented, investing in analysts’ skills, and sending them to trainings will be essential."
+        },
+        {
+          "value": "log-event-ratio-unreasonable",
+		  "expanded": "Log/event ratio unreasonable",
+          "description": "Detecting some kinds of events it is often argued that to create such logs would cost too much. SOC needs are here valued below operational needs and should be tracked and recorded as such. This is often argued for DNS, netflow logs, or logs created and stored on virtualized endpoints for analysis. These decisions should be documented for each use case and a risk entry should be created for documenting “failure of detection capabilities as log/event ratio not economical”."
+        },
+        {
+          "value": "resource-problem-detection",
+		  "expanded": "Resource problem detection",
+          "description": "This can happen when the team is understaffed (chronic problem), or workload is particularly high temporarily (acute problem). Creation of new rules often has less priority in a SOC, as handling daily incidents and vulnerabilities is more critical for the short-term perception by the outside. As having an updated set of use cases is critical though to not only identify current threats to the company, but also employee motivation, this should never be down prioritized for long periods."
+        },
+        {
+          "value": "logs-can-not-be-delivered",
+		  "expanded": "Logs can not be delivered",
+          "description": "This information is usually communicated by the respective engineering team. It can happen when logs are not created on site or when the network architecture of your company does not allow the delivery of the needed logs to the SIEM. This problem can not be resolved by the SOC, rather it should be verified by network architects and documented with a risk entry until the delivery situation can be resolved."
+        },
+        {
+          "value": "resource-problem-delivery",
+		  "expanded": "Resource problem delivery",
+          "description": "Specific events require specific log settings to be able to detect right actions. If the respective engineering team does not have the resources or different priorities to create the adjustment, it is hard for the SOC to enforce the change. This type of category can either point to heavy workload of the engineering team, or lack of official support for capabilities the SOC needs to do its job. This category therefore is a valuable metric for documenting the dependency of the SOC on the other teams and combined with the information where this occurs most often, measures should be taken to improve the situation. Until the situation is resolved, the incapability to create detection rules based on this dependency should be documented in a risk entry."
+        },
+        {
+          "value": "no-tool-for-logging",
+		  "expanded": "No tool for logging",
+		  "description":"This is most often a problem for newly built SOCs. This can happen if they for example would rely on process creation events, as usually created by Sysmon or an EDR solution, but such tools have not been enforced yet by security management, or accepted be the respective engineering team. The SOC heavily relies on support by the surrounding teams and lack of detection logs should result in a documented risk entry for acceptance on invisibility on the respective systems. Security management and security architects should evaluate the risk and if reevaluation results in needed changes, support for extending the log coverage should be enforced."
+        },
+		{
+          "value": "no-process-demand-responsible-for-detection",
+		  "expanded": "No process/demand/responsible for detection",
+		  "description":"This can happen if systems or applications are not built based on official policies, inventory is incomplete or if a loose governance is implemented throughout the company. This is a challenge SOCs often face and can result in excessive amount of time used in trying to identify responsible people. In vulnerability management, where the focus should be set to avoid a critical event or lower the risk of entering into one, it is easy to detect documentation gaps and hard to react to them, because no risk-based vulnerability assessment can actually be performed. For risk-based vulnerability management to be successful, information for every system should be kept on not only what type of system it is, what is running on it, and who is responsible for it, but the whole surrounding setup has to be considered to create an actual risk assessment. To produce this regularly at scale, information about what protection measures are in place to support any software or system inquired, as well as what attack vectors these protection measure consider and where the existing measures currently have their gaps, has to be documented and be made available during the use case assessment process. The gaps identified by the SOC should be put into a fix process and information about missing stakeholders should be forwarded for clarifying the actual need of the implementation of such a detection rule. If no responsible can be found and the system still can not be removed from the network, due to political reasons (for example), a risk entry should at least document knowledge of such a device."
+        }      
+  ],
+}
