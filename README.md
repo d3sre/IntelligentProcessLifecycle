@@ -4,7 +4,7 @@ The Intelligent Process Lifecycle of Active Cyber Defenders
 ## Description
 This github hosts the poster related files of false positive and error categories in security operation services. The goal is to define an open source reporting standard for Security Operation Center reports. The hereby published KPIs are focused on creating statistics relevant for continuous improvement of operational cyber defense tasks.
 
-This information was first presented at FIRST 2020, the video is available here: https://www.youtube.com/watch?v=pR02cZlPakU
+This information was first presented at FIRST 2020 together with [Eireann Leverett](https://github.com/blackswanburst)(who injected his experience in regards to risk management), the video is available here: https://www.youtube.com/watch?v=pR02cZlPakU
 
 # Continuous Improvement metrics for integrity or technical security compliance monitoring
 KPI | Explanation | Target Value | Owner | Risk Type
@@ -26,7 +26,7 @@ Number of blind spots identified | Any time a detection can not be created this 
 Number of context of exploitability not given | Very high numbers → You might not be getting honest responses or your threat identification process is faulty | it depends :) | Counter-Party/ Contractual | Exogenous 
 
 
-
+My other continuous improvement KPIs for security monitoring can be found here: https://github.com/d3sre/Use_Case_Applicability 
 
 
 ## Authors and acknowledgment
