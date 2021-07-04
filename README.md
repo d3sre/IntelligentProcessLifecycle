@@ -7,8 +7,8 @@ This github hosts the poster related files of false positive and error categorie
 This information was first presented at FIRST 2020 together with [Eireann Leverett](https://github.com/blackswanburst)(who injected his experience in regards to risk management), the video is available here: https://www.youtube.com/watch?v=pR02cZlPakU
 
 # Continuous Improvement metrics for integrity or technical security compliance monitoring
-KPI | Explanation | Target Value | Owner | Risk Type | Business Impact
- :-------------------------- |:----------------------------------------------------| :----- |:---------------- |:----------------:|:------|
+KPI | Explanation | Target Value | Owner | Risk Type | Business Impact | Motivating Example
+ :-------------------------- |:----------------------------------------------------| :----- |:---------------- |:----------------:|:------|:-----|
  Number of legitimate violations authorized by change | This value reflects events which usually are classic false positives, where all official change processes were correctly followed but the SOC was not included in the process and therefore could not prevent the false alarm | < 10 % | Compliance | Endogenous
  Number of configuration errors in baseline | This value reflects what system configurations (or even configuration templates) needs improvement. | < 10 % | Compliance/ Operational | Endogenous
  Number of Limitation in verification products found | If too many of these events were created by configurations, the causing tool should be questioned. | < 5 % | Compliance/ Operational | Endogenous
@@ -17,8 +17,8 @@ Number of unauthorized changes without legitimate cause | Very high numbers → 
 Number of changes without formal changes | Number of legitimate violation with missed change documentation is highlighting where the SOC had no chance of automating false alerts, as well as where employees are not complying to formal processes. | <5% | Policy/Compliance | Endogenous
 
 # Continuous Improvement metrics for vulnerability management
-KPI | Explanation | Target Value | Owner | Risk Type | Business Impact
- :-------------------------- |:----------------------------------------------------| :----- |:----------------| :----------------:|:------:|
+KPI | Explanation | Target Value | Owner | Risk Type | Business Impact | Motivating Example
+ :-------------------------- |:----------------------------------------------------|:----- |:----------------| :----------------:|:------|:-------:|
 Number of delays due to unreasonable SLA | If this value is high very often, correlated to the applications you are running you might be able to impact either SLA or policy documents | 0 | Operational/ Contractual | Exogenous
 Numbers of delays due to resource problems or Average # of days delays due to resource problems | If this happens to often it can illustrate how your staff management is impacting the quality of security services. If occuring too often a risk entry is important | 0 | Contractual | Endogenous/Exogenous
 Numbers of installed patch on time | This is the goal. If it can’t be reached too often policies or failing reasons should be reviewed | >80% | Counter-Party/ Contractual | Exogenous
