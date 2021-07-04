@@ -17,8 +17,8 @@ Number of unauthorized changes without legitimate cause | Very high numbers → 
 Number of changes without formal changes | Number of legitimate violation with missed change documentation is highlighting where the SOC had no chance of automating false alerts, as well as where employees are not complying to formal processes. | <5% | Policy/Compliance | Endogenous
 
 # Continuous Improvement metrics for vulnerability management
-KPI | Explanation | Target Value | Owner | Risk Type
- :-------------------------- |:----------------------------------------------------| :----- |:----------------| :----------------:
+KPI | Explanation | Target Value | Owner | Risk Type | Business Impact
+ :-------------------------- |:----------------------------------------------------| :----- |:----------------| :----------------:|:------:|
 Number of delays due to unreasonable SLA | If this value is high very often, correlated to the applications you are running you might be able to impact either SLA or policy documents | 0 | Operational/ Contractual | Exogenous
 Numbers of delays due to resource problems or Average # of days delays due to resource problems | If this happens to often it can illustrate how your staff management is impacting the quality of security services. If occuring too often a risk entry is important | 0 | Contractual | Endogenous/Exogenous
 Numbers of installed patch on time | This is the goal. If it can’t be reached too often policies or failing reasons should be reviewed | >80% | Counter-Party/ Contractual | Exogenous
