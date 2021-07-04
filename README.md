@@ -19,9 +19,9 @@ Number of changes without formal changes | Number of legitimate violation with m
 # Continuous Improvement metrics for vulnerability management
 KPI | Explanation | Target Value | Owner | Risk Type | Business Impact | Motivating Example
  :-------------------------- |:----------------------------------------------------|:----- |:----------------| :----------------:|:------|:-------:|
-Number of delays due to unreasonable SLA | If this value is high very often, correlated to the applications you are running you might be able to impact either SLA or policy documents | 0 | Operational/ Contractual | Exogenous
-Numbers of delays due to resource problems or Average # of days delays due to resource problems | If this happens to often it can illustrate how your staff management is impacting the quality of security services. If occuring too often a risk entry is important | 0 | Contractual | Endogenous/Exogenous
-Numbers of installed patch on time | This is the goal. If it can’t be reached too often policies or failing reasons should be reviewed | >80% | Counter-Party/ Contractual | Exogenous
+Number of delays due to unreasonable SLA | If this value is high very often, correlated to the applications you are running you might be able to impact either SLA or policy documents | 0 | Operational/ Contractual | Exogenous | Risk Appetite and Contractual Management teams need to match expectations | Network switches only have two change windows a year and don't get patched, but contracts still punish counter party for unpatched systems
+Numbers of delays due to resource problems or Average # of days delays due to resource problems | If this happens to often it can illustrate how your staff management is impacting the quality of security services. If occuring too often a risk entry is important | 0 | Contractual | Endogenous/Exogenous | Operational Risk management | Staff resource problems in some teams delay patching
+Numbers of installed patch on time | This is the goal. If it can’t be reached too often policies or failing reasons should be reviewed | >80% | Counter-Party/ Contractual | Exogenous | Cyber Risk Expectation isn't being met | 99/100 windows computers are patched on time, but 1 is considered high risk to patch.
 
 # Continuous Improvement metrics for Log management
 KPI | Explanation | Target Value | Owner | Risk Type | Business Impact | Motivating Example
