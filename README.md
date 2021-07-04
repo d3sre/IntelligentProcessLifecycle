@@ -22,8 +22,11 @@ KPI | Explanation | Target Value | Owner | Risk Type | Business Impact | Motivat
 Number of delays due to unreasonable SLA | If this value is high very often, correlated to the applications you are running you might be able to impact either SLA or policy documents | 0 | Operational/ Contractual | Exogenous
 Numbers of delays due to resource problems or Average # of days delays due to resource problems | If this happens to often it can illustrate how your staff management is impacting the quality of security services. If occuring too often a risk entry is important | 0 | Contractual | Endogenous/Exogenous
 Numbers of installed patch on time | This is the goal. If it can’t be reached too often policies or failing reasons should be reviewed | >80% | Counter-Party/ Contractual | Exogenous
-Number of blind spots identified | Any time a detection can not be created this should be tracked, possibly by creating risk entries. | < 5% | Operational/ Contractual | Endogenous/Exogenous
-Number of context of exploitability not given | Very high numbers → You might not be getting honest responses or your threat identification process is faulty | it depends :) | Counter-Party/ Contractual | Exogenous 
+
+# Continuous Improvement metrics for Log management
+KPI | Explanation | Target Value | Owner | Risk Type | Business Impact | Motivating Example
+Number of blind spots identified | Any time a detection can not be created this should be tracked, possibly by creating risk entries. | < 5% | Operational/ Contractual | Endogenous/Exogenous | No visibility on the operational risk register | The Active Directory logs cannot be ingested by the SOC because the identity management teamdoesn't have enough resources.
+Number of context of exploitability not given | Very high numbers → You might not be getting honest responses or your threat identification process is faulty | it depends :) | Counter-Party/ Contractual | Exogenous | Potentially Poor Risk Acceptance Practices | The technical engineering team defer every patch as unexploitable to avoid applying resources.
 
 
 My other continuous improvement KPIs for security monitoring can be found here: https://github.com/d3sre/Use_Case_Applicability 
