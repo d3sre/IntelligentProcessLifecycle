@@ -24,8 +24,8 @@ Numbers of delays due to resource problems or Average # of days delays due to re
 Numbers of installed patch on time | This is the goal. If it can’t be reached too often policies or failing reasons should be reviewed | >80% | Counter-Party/ Contractual | Exogenous
 
 # Continuous Improvement metrics for Log management
- :-------------------------- |:----------------------------------------------------|:----- |:----------------| :----------------:|:------|:-------:|
 KPI | Explanation | Target Value | Owner | Risk Type | Business Impact | Motivating Example
+ :-------------------------- |:----------------------------------------------------|:----- |:----------------| :----------------:|:------|:-------:|
 Number of blind spots identified | Any time a detection can not be created this should be tracked, possibly by creating risk entries. | < 5% | Operational/ Contractual | Endogenous/Exogenous | No visibility on the operational risk register | The Active Directory logs cannot be ingested by the SOC because the identity management teamdoesn't have enough resources.
 Number of context of exploitability not given | Very high numbers → You might not be getting honest responses or your threat identification process is faulty | it depends :) | Counter-Party/ Contractual | Exogenous | Potentially Poor Risk Acceptance Practices | The technical engineering team defer every patch as unexploitable to avoid applying resources.
 
