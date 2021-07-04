@@ -8,7 +8,7 @@ This information was first presented at FIRST 2020 together with [Eireann Levere
 
 # Continuous Improvement metrics for integrity or technical security compliance monitoring
 KPI | Explanation | Target Value | Owner | Risk Type | Business Impact | Motivating Example
- :-------------------------- |:----------------------------------------------------| :----- |:---------------- |:----------------:|:------|:-----|
+ :-------------------------- |:----------------------------------------------------| :----- |:---------- |:----------|:----------------|:----------------|
  Number of 'legitimate violations authorized by change' | This value reflects events which usually are classic false positives, where all official change processes were correctly followed but the SOC was not included in the process and therefore could not prevent the false alarm | < 10 % | Compliance | Endogenous | Governance Risk | Officially approved change to Apache changes configuration format, and detection tools alert on the change.
  Number of 'configuration errors in baseline' | This value reflects what system configurations (or even configuration templates) needs improvement. | < 10 % | Compliance/ Operational | Endogenous | Change and Compliance Management Risk | The baselines for configuration templates were taken from development instead of production systems.
  Number of 'Limitation in verification products' found | If too many of these events were created by configurations, the causing tool should be questioned. | < 5 % | Compliance/ Operational | Endogenous |  SOC Operational risk | Snort rules can't be scoped narrowly to detect the change we're interested in, but if they're given wider scope, produce false positives.
