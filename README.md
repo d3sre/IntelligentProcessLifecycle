@@ -5,6 +5,7 @@ The Intelligent Process Lifecycle of Active Cyber Defenders
 This github hosts the poster related files of false positive and error categories in security operation services. The goal is to define an open source reporting standard for Security Operation Center reports. The hereby published KPIs are focused on creating statistics relevant for continuous improvement of operational cyber defense tasks.
 
 This information was first presented at FIRST 2020 together with [Eireann Leverett](https://github.com/blackswanburst)(who injected his experience in regards to risk management), the video is available here: https://www.youtube.com/watch?v=pR02cZlPakU
+The peer reviewed paper created for this content can be found here: https://dl.acm.org/doi/10.1145/3499427
 
 The recording of the talk i gave at SwissCyberStorm 2021 about the taxonomy for integrity as well as compliance configuration monitoring can be found here: https://www.youtube.com/watch?v=ra4LZouxIyk
 
