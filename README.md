@@ -17,6 +17,8 @@ Discipline: | Security Monitoring | Configuration Anomalies | Vulnerability Mana
 Validation via: | SIEM Use Cases, EDR /AV Logs, IDS/IPS, NDR Logs | Integrity Monitoring, Compliance Configuration Monitoring | Vulnerability Scans, Patch Verification
 Paper published: | https://dl.acm.org/doi/10.1145/3370084 | https://github.com/d3sre/IntelligentProcessLifecycle/blob/main/ComplianceIntegrityTaxonomyPaper-v1.1.pdf | https://dl.acm.org/doi/10.1145/3499427
 Presentation link: | https://www.youtube.com/watch?v=NifSKzogSrI | https://www.youtube.com/watch?v=ra4LZouxIyk | https://www.youtube.com/watch?v=qdgY6aAfUAk
+Slides: | https://github.com/d3sre/Use_Case_Applicability/blob/master/Hack.lu-FingerpointingPresentation.pdf | https://github.com/d3sre/IntelligentProcessLifecycle/blob/main/SCS-CIDailySOCOperations-public.pdf | https://github.com/d3sre/IntelligentProcessLifecycle/blob/main/IntelligentProcessLifecycle-Extended-Area41-public.pdf
+JSON Taxonomy file: | https://github.com/d3sre/Use_Case_Applicability/blob/master/machinetag.json | https://github.com/d3sre/IntelligentProcessLifecycle/blob/main/ResolutionCategories-IntegrityComplianceMonitoring.json | https://github.com/d3sre/IntelligentProcessLifecycle/blob/main/ResolutionCategories-VulnerabilityDetectionErrors.json & https://github.com/d3sre/IntelligentProcessLifecycle/blob/main/ResolutionCategories-DetectionFailureReason.json
 
 
 # Continuous Improvement metrics for integrity or technical security compliance monitoring
